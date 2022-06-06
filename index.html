@@ -3,4 +3,64 @@
 	<head>
 		<meta charset = "utf-8">
 		<title>FELIX_CV</title>
+		<script>
+			function myFunction(){
+			document.getElementById("HEY").innerHTML = "THANKS";
+			}
+		</script>
 		<link rel = "stylesheet" href="mystyle.css">
+		
+	</head>
+
+	<body>
+		<center>
+			<img src ="images/cv.jpg"alt="This is a image">
+		</center>
+		
+		<h1>Hello everyone</h1><!-- css :<h1>橘字-->
+		<hr color="red">
+		
+		<ul><!-- css :<ul>紅底藍字 -->
+			<li>姓名:簡宏諭</li>
+			<li>學號:109403044</li>
+			<li>班級:資管二B</li>
+		</ul>
+		
+		<br>
+		
+		<p><b>學經歷</b></p><!-- css <p>: 綠底橘字-->
+			<ol><!-- css : <ol> 黑底白字-->
+				<li>崇德國小</li>
+				<li>秀峰國中</li>
+				<li><i>中崙高中</i></li>
+				<li><img src="images/ncu.png">中央大學</li>
+			</ol>
+			
+		<table border="1">
+			<caption>自我介紹</caption>
+			
+			<thead>
+				<tr>
+					<th>興趣</th><th>習得語言</th>
+				</tr>
+			</thead>
+			
+			<tbody>
+				<tr>
+					<td>籃球</td><td>JAVA</td>
+				</tr>
+			</tbody>
+			
+			<tfoot>
+				<tr>
+					<td>看電影</td><td>C++</td>
+				</tr>
+			</tfoot>
+		</table>
+		
+		<div>
+			<p id="HEY">Hey...</p>
+			<button type ="button" onclick="myFunction()">Just a button</button>
+		</div>
+	</body>
+</html>
